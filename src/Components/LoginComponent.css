@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.side-background {
+  /* background-color: aqua; */
+  background-color: #023047;
+  background-image: url("../../public/bckimg.PNG");
+  background-repeat: no-repeat;
+  background-position: 10% 40%;
+  min-height: 90vh;
+}
+.login-section {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-title {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+}
+.card-sub-title {
+  font-size: 1rem;
+  margin: 0 0 0.5rem 0;
+}
+.text-left,
+.text-right {
+  text-align: right;
+  font-size: 0.7rem;
+  margin: 0;
+}
+.rem-pass.form-check {
+  text-align: left;
+}
+label.form-check-label {
+  margin: 0;
+  padding: 0;
+}
+.text-right a {
+  text-decoration: none;
+}
+
+.login-btn {
+  padding: 0.5rem 8rem;
+}
+Toasts {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+}
+@media only screen and (max-width: 323px) {
+  .login-btn {
+    padding: 0.5rem 35vw;
+  }
+}
